@@ -4,8 +4,8 @@ microT-CNN is the latest version of the DIANA-microT-CDS model. An avant-garde n
 The tool is freely available under the MIT license. If you use microT-CNN in your research, please cite:
 ""
 
-microT-CNN was funded by:
-"HERE"
+microT-CNN was funded by the European Union - NextGenerationEU through Greece 2.0—National Recovery and Resilience Plan, under the call "Flagship actions in interdisciplinary scientific fields with a special focus on the productive fabric" (ID 16618), project name "Bridging big omic, genetic and medical data for Precision Medicine implementation in Greece" (project code TAEDR-0539180).
+
 
 ![Figure2](https://github.com/zacharopoulou/microT-CNN/assets/44471936/a863ba3f-2d1c-49c4-8534-da6edbd8913f)
 
