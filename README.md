@@ -23,9 +23,9 @@ You can use `microt_temp` as a volume for connection between the Docker image an
 
 1. Follow the [installation instructions](https://docs.docker.com/get-docker/) on the Docker website to install Docker on your machine.
    - If you do not have root access (e.g., on an HPC or cluster), ask the IT administrator to install Docker for you and follow [this guide](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user) to allow your user to run Docker commands without needing root access or sudo.
-2. Start a container using the microT-CNN image from Docker Hub and run the container with the volume mounted for `microt_temp`.
+2. Start a container in interactive mode using the microT-CNN image from Docker Hub and run the container with the volume mounted for `microt_temp`.
 ```bash
-docker run -v /path/to/local/microt_temp:/microt_temp penny0lane/microt_cnn
+docker run -it -v /path/to/local/microt_temp:/microt_temp penny0lane/microt_cnn
 ```
 
 #### Main Function of the Algorithm
